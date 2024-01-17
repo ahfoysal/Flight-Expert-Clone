@@ -7,6 +7,7 @@ const SideBar = () => {
         <div className="my-5 font-medium text-xl text-center">
           Session Timeout in
         </div>
+        <Timer />
       </CardBody>
     </Card>
   );
