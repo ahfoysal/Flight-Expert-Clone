@@ -4,6 +4,7 @@ import Search from "./components/Search";
 import Layout from "./components/layout/Layout";
 import SideBar from "./components/layout/SideBar";
 import Footer from "./components/layout/Footer";
+import { Flights } from "./components/Flights";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
       <Layout>
         <div className=" mt-10 grid grid-cols-6  gap-8">
           <SideBar />
-          <div className="col-span-4">4</div>
+          <div className="col-span-4">
+            <Flights />
+          </div>
         </div>
         <Footer />
       </Layout>
